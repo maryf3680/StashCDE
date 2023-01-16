@@ -7,7 +7,6 @@ body:
     attributes:
       value: We value your time and effort to submit this bug report. 🙏
   - type: textarea
-    id: description
     validations:
       required: true
     attributes:
@@ -75,7 +74,6 @@ body:
           required: true 
   - type: dropdown
     attributes:
-      label: Are you willing to submit PR?
       description: This is absolutely not required, but we are happy to guide you in the contribution process. Find us in help-needed channel on [Discord](https://discord.gg/9wcGSf22PM)!
       options:
         - "Yes I am willing to submit a PR!"
